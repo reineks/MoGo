@@ -1,0 +1,60 @@
+.section {
+  padding: 40px 0;
+}
+
+.section--devices {
+  margin-bottom: 40px;
+  padding-bottom: 0;
+  background: #f5f5f5 url(../images/bg-featuries.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.section--clients {
+  padding-bottom: 0;
+  background: #f5f5f5 url(../images/bg-clients.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.section--grey {
+  background-color: #f8f8f8;
+}
+
+
+.section--map {
+  padding: 20px 0;
+}
+.section__header {
+  width: 100%;
+  max-width: 950px;
+  margin: 50px auto 50px;
+}
+
+.section__subtitle {
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+}
+
+.section__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+  &::after {
+    content: "";
+    display: block;
+    margin: 30px auto;
+    width: 60px;
+    height: 3px;
+
+    background-color: $red;
+  }
+}
+
+.section__text {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 15px;
+  color: #999;
+}

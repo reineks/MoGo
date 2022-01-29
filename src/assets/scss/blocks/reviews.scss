@@ -1,0 +1,44 @@
+.reviews {
+  padding: 0 110px;
+}
+
+.reviews__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews__photo {
+  width: 210px;
+  height: 210px;
+  margin: 0 30px;
+  border-radius: 50%;
+}
+
+.reviews__text {
+  max-width: 650px;
+  margin: 20px 0;
+  padding-top: 10px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  color: #999;
+}
+
+.reviews__author {
+  margin: 20px 0;
+  padding-left: 270px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  color: #333;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 3px;
+    width: 60px;
+    margin-right: 10px;
+    background-color: $red;
+  }
+}
+

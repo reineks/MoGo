@@ -1,0 +1,72 @@
+@import "vars";
+@import "vendor/reset";
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.button {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 40px 0;
+  border: 0;
+  background-color: #e5e5e5
+}
+
+/* Blocks */
+@import "blocks/intro";
+@import "blocks/header";
+@import "blocks/btn";
+@import "blocks/slider";
+@import "blocks/section";
+@import "blocks/card";
+@import "blocks/statistics";
+@import "blocks/services";
+@import "blocks/devices";
+@import "blocks/wedo";
+@import "blocks/accordion";
+@import "blocks/reviews";
+@import "blocks/social";
+@import "blocks/logos";
+@import "blocks/works";
+@import "blocks/clients";
+@import "blocks/blog";
+@import "blocks/map";
+
+
+
+
+
+

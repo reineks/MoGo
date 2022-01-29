@@ -1,0 +1,33 @@
+.services {
+  display: flex;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.services__item {
+  flex: 1 1 0;
+
+  padding-left: 85px;
+  position: relative;
+}
+
+.services__text {
+  padding-right: 35px;
+  font-size: 15px;
+  color: #999;
+}
+
+.services__title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+
+.services__icon {
+  position: absolute;
+  top: 2px;
+  left: 28px;
+  z-index: 1;
+}
